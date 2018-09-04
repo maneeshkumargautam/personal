@@ -1,0 +1,79 @@
+I have deployed Newsnib Dashboard on the staging server.
+Please find and test it.
+
+Changes are:-
+------------------
+1. Dynamic News category on the dashboard landing page.
+2. News showing on click of that news category.
+3. Default image change in the dashboard.
+4. Category Icon Change in landing page of the dashboard.
+
+
+Dashboard link: http://rnd.ekagga.com:8080/EkaggaTheNews/index.html
+
+I have tested it and it worked fine.
+
+=============================================================
+I have deployed Newsnib Dashboard on the staging server.
+Please find and test it.
+
+changes are :
+-------------------
+Changed content regarding language in Landing page of Dashboard. 
+            In English   "Read More News" 
+            In Hindi      "और समाचार पढ़ें"
+
+            Jira Ticket: http://jira.ekagga.com:8081/browse/PA-327
+
+        2. In Newslist page side nav bar button toggling is working now.
+             (>)
+           Jira Ticket: http://jira.ekagga.com:8081/browse/PA-328
+
+        3. Removed All News from the Category list while adding news.
+            Jira Ticket: http://jira.ekagga.com:8081/browse/PA-329
+
+        4. Removed Language and category option from the footer.
+            Jira Ticket: http://jira.ekagga.com:8081/browse/PA-330
+Dashboard link: http://rnd.ekagga.com:8080/EkaggaTheNews/index.html
+        
+Testing:-
+----------
+       I have tested all changes regarding this mail all change are working fine for me.
+
+
+
+==============================================================
+Hi All,
+
+I have deployed Newsnib Dashboard on the staging server.
+Please find and test it.
+
+Note: Build through Jenkins. 
+Tag : #91  Aug 2, 2018 5:20 PM
+For Staging : EkaggaTheNews.war
+For Production: GenericAppBeta.war
+
+Changes are:
+------------------
+If the user is logged into the Dashboard in one tab then any fresh tab will be open with List news page.
+          The condition I have checked:-
+Open dashboard
+Type URL http://localhost:8080/NewsNib/ListNews.html
+It should not be open directly without login.
+----------------------------------------------------------------------------------------------------------
+open dashboard
+login there with the valid credential
+now again open dashboard in another tab it should be open in list news page.
+----------------------------------------------------------------------------------------------------------
+open dashboard with two or three tab login in one tab and refresh all tab of the dashboard 
+now log out in one tab 
+refresh to all page
+the result is in all tab page should be redirected in index page or landing page directly.
+----------------------------------------------------------------------------------------------------------
+Jira Ticket: http://jira.ekagga.com:8081/browse/PA-329
+----------------------------------------------------------------------------------------------------------
+Testing:
+----------
+    I have tested all changes regarding this mail all change are working fine for me.
+
+
